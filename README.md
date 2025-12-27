@@ -1,5 +1,17 @@
 # 🧹 ClearCacheIcons
 
+![GitHub release](https://img.shields.io/github/v/release/Pablitus666/ClearCacheIcons?style=flat-square)
+![GitHub downloads](https://img.shields.io/github/downloads/Pablitus666/ClearCacheIcons/total?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/Pablitus666/ClearCacheIcons?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/Pablitus666/ClearCacheIcons?style=flat-square)
+![License](https://img.shields.io/github/license/Pablitus666/ClearCacheIcons?style=flat-square)
+![C#](https://img.shields.io/badge/C%23-.NET-blue?style=flat-square)
+![WinForms](https://img.shields.io/badge/UI-WinForms-blueviolet?style=flat-square)
+![Windows](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D6?style=flat-square)
+![Portable](https://img.shields.io/badge/Portable-Yes-success?style=flat-square)
+![Admin Required](https://img.shields.io/badge/Admin-Required-orange?style=flat-square)
+
+
 **ClearCacheIcons** es una aplicación gráfica desarrollada en **C# (.NET / WinForms)** diseñada para **limpiar de forma segura la caché de iconos y miniaturas de Windows** en **Windows 10 y Windows 11 (64 bits)**.
 
 Funciona como una **utilidad portable de mantenimiento del sistema**, enfocada en resolver problemas comunes como iconos corruptos, desactualizados o que no se refrescan correctamente en el Explorador de archivos.
