@@ -1,0 +1,69 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Packages
+*.nupkg
+*.snupkg
+*.dll
+*.exe
+
+# Rider
+.idea/
+*.iml
+
+# misc
+*.pdb
+*.log
+*.bak
+*.cache
+*.sdf
+*.vssscc
+*.vspscc
+*.dsmd
+*.ispcc
+*.mfcribbon-ms
+*.resharper
+*.bak
+*.tmp
+
+# Nuget
+.nuget/
+nuget.config
+packages/
+
+# Project files
+*.csproj.user
+*.resharper
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# MacOS
+.DS_Store
+
+# ReSharper
+*.DotSettings
+*.DotSettings.user
+
+# Local history for Visual Studio Code
+.history/
+
+# Temp files
+*~
+*.swp
+.fuse_hidden*
+.lock
+
+# Specific to this project (ClearCacheIcons)
+publish/
