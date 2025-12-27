@@ -72,6 +72,12 @@ La aplicación cuenta con una interfaz gráfica simple, orientada a facilitar su
 
 ---
 
+## 📷 Capturas de pantalla
+
+<p align="center">
+  <img src="images/screenshot.png?v=2" alt="Vista previa de la aplicación" width="600"/>
+</p>
+
 ## ⚠️ Nota
 
 Durante el proceso, es normal que el Explorador de archivos se cierre y vuelva a abrir.  
