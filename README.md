@@ -57,13 +57,27 @@ Si Explorer no puede cerrarse, la herramienta **continúa la limpieza** y notifi
 
 ---
 
-## 📦 Uso
+## 🚀 Instalación y Uso
 
-1. Ejecuta la aplicación como **Administrador**
-2. Presiona el botón para iniciar la limpieza
-3. Observa el progreso y detalles en el panel de log
-4. El Explorador de archivos se reiniciará automáticamente si es necesario
+### 📦 Ejecutable Precompilado
 
+1.  Descarga el archivo `ClearCacheIcons.zip` desde la sección [**Releases**](https://github.com/Pablitus666/ClearCacheIcons/releases/tag/v1.0.0) del repositorio de GitHub. 
+2.  Descomprime el archivo `ClearCacheIcons.zip`.
+3.  Ejecuta `ClearCacheIcons.exe` desde la carpeta descomprimida.
+4.  Ejecuta la aplicación como **Administrador**
+5.  Presiona el botón para iniciar la limpieza
+6.  Observa el progreso y detalles en el panel de log
+7.  El Explorador de archivos se reiniciará automáticamente si es necesario
+
+### 📦 Compilación desde el Código Fuente
+
+1.  Clona el repositorio:
+    ```powershell
+    git clone https://github.com/Pablitus666/ClearCacheIcons.git
+    ```
+2.  Abre la solución ClearCacheIcons.sln con Visual Studio 2022 o una versión posterior.
+3.  Compila el proyecto en configuración `Release`.
+4.  El ejecutable se encontrará en el directorio `bin/Release/net8.0-windows/`.
 ---
 
 ## 📸 Interfaz

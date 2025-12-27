@@ -1,0 +1,16 @@
+ClearCacheIcons v1.0.0
+
+Herramienta gráfica desarrollada en **C# (.NET / WinForms), diseñada para para
+limpiar de forma segura la caché de iconos y miniaturas de Windows en Windows
+10 y Windows 11 (64 bits).
+
+Funciona como una utilidad portable de mantenimiento del sistema, enfocada en resolver problemas comunes como iconos corruptos, desactualizados o que no se refrescan correctamente en el Explorador de archivos.
+
+Uso:
+
+- Ejecutar como Administrador
+- Iniciar la limpieza desde la interfaz
+
+Repositorio:
+
+https://github.com/Pablitus666/ClearCacheIcons.git
