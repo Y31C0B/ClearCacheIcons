@@ -1,6 +1,6 @@
 # 🧹 ClearCacheIcons
 
-Utilidad para Windows que repara problemas de iconos y miniaturas corruptas limpiando la caché del sistema de forma segura y automática.
+Utilidad para Windows orientada al mantenimiento del sistema que soluciona problemas de iconos y miniaturas dañadas mediante la limpieza segura de la caché.
 
 
 ![GitHub release](https://img.shields.io/github/v/release/Pablitus666/ClearCacheIcons?style=flat-square)
@@ -12,7 +12,8 @@ Utilidad para Windows que repara problemas de iconos y miniaturas corruptas limp
 ![WinForms](https://img.shields.io/badge/UI-WinForms-blueviolet?style=flat-square)
 ![Windows](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D6?style=flat-square)
 ![Portable](https://img.shields.io/badge/Portable-Yes-success?style=flat-square)
-![Admin Required](https://img.shields.io/badge/Admin-Required-orange?style=flat-square)
+![Requires Admin](https://img.shields.io/badge/Privileges-Administrator-orange?style=flat-square)
+
 
 
 **ClearCacheIcons** es una aplicación gráfica desarrollada en **C# (.NET / WinForms)** diseñada para **limpiar de forma segura la caché de iconos y miniaturas de Windows** en **Windows 10 y Windows 11 (64 bits)**.
@@ -47,10 +48,21 @@ Funciona como una **utilidad portable de mantenimiento del sistema**, enfocada e
 2. Localiza la carpeta de caché de iconos de Windows: %LocalAppData%\Microsoft\Windows\Explorer
 3. Gestiona el estado de **explorer.exe** de forma controlada para liberar los archivos
 4. Elimina archivos como:
-- `IconCache*.db`
-- `thumbcache_*.db`
+
+   - `IconCache*.db`
+   - `thumbcache_*.db`
+
 5. Reinicia Windows Explorer automáticamente si corresponde
 6. Registra todo el proceso en un **log detallado**
+
+---
+
+## ❓ ¿Cuándo usar ClearCacheIcons?
+
+- Iconos que no se actualizan correctamente
+- Miniaturas dañadas o en blanco
+- Cambios de iconos que no se reflejan
+- Problemas visuales en el Explorador de archivos
 
 ---
 
@@ -71,7 +83,7 @@ Si Explorer no puede cerrarse, la herramienta **continúa la limpieza** y notifi
 ## 🖥️ Requisitos del sistema
 
 - Windows 10 o Windows 11 (64 bits)
-- .NET Framework / .NET Runtime compatible
+- .NET Runtime compatible (según versión del ejecutable)
 - Permisos de administrador
 
 ---
@@ -120,8 +132,8 @@ Esto es necesario para liberar los archivos de caché bloqueados por el sistema.
 
 ## 📄 Licencia
 
-Este proyecto se distribuye como software libre.  
-Puedes usarlo, modificarlo y adaptarlo a tus necesidades.
+Este proyecto se distribuye bajo la licencia **MIT**.  
+Puedes usarlo, modificarlo y adaptarlo libremente.
 
 ---
 
