@@ -18,6 +18,10 @@ Funciona como una **utilidad portable de mantenimiento del sistema**, enfocada e
 
 ---
 
+![Social Preview](images/Preview.png)
+
+---
+
 ## ✨ Características principales
 
 - 🖥️ **Aplicación gráfica (WinForms)** con interfaz sencilla e intuitiva  
