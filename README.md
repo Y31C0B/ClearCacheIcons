@@ -1,5 +1,8 @@
 # 🧹 ClearCacheIcons
 
+Utilidad para Windows que repara problemas de iconos y miniaturas corruptas limpiando la caché del sistema de forma segura y automática.
+
+
 ![GitHub release](https://img.shields.io/github/v/release/Pablitus666/ClearCacheIcons?style=flat-square)
 ![GitHub downloads](https://img.shields.io/github/downloads/Pablitus666/ClearCacheIcons/total?style=flat-square)
 ![GitHub stars](https://img.shields.io/github/stars/Pablitus666/ClearCacheIcons?style=flat-square)
@@ -121,6 +124,15 @@ Este proyecto se distribuye como software libre.
 Puedes usarlo, modificarlo y adaptarlo a tus necesidades.
 
 ---
+
+## 🧪 Prueba la aplicación
+
+Te invito a testear esta utilidad y comprobar su funcionamiento en tu sistema Windows.
+
+👉 https://github.com/Pablitus666/ClearCacheIcons
+
+Si encuentras algún problema o tienes sugerencias, no dudes en abrir un *Issue*.
+
 
 ## 🤝 Contribuciones
 
